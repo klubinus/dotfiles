@@ -1,0 +1,3 @@
+#!/usr/bin/sh
+
+java -cp /home/klaus/.local/bin/LigPlus -jar /home/klaus/.local/bin/LigPlus/LigPlus.jar

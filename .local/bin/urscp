@@ -1,0 +1,3 @@
+#!/bin/sh
+
+scp -i ~/Biolubinus/klubinus.pem -P 53841 $1 klubinus@loginpub-hpc.urosario.edu.co:/home/klubinus/data/

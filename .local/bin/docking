@@ -1,0 +1,251 @@
+#!/usr/bin/python
+
+'''
+MIT License
+
+Copyright (c) 2018 Sari Sabban
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+'''
+
+import os
+import sys
+# import math
+# import numpy
+import pandas as pd
+import pymol
+import argparse
+import itertools
+from pymol.cgo import *
+# import openbabel
+
+
+def cores(filename, ph):
+    nombre = os.path.splitext(filename)[0]
+    cids = []
+    with open(filename, 'r') as tabla:
+        with open('{}.smi'.format(nombre), 'w') as smi:
+            counter = 1
+            for i, line in enumerate(tabla):
+                if i == counter:
+                    # print(line)
+                    smi.write(line.strip().split()[0] + '\n')
+                    cids.append(line.strip().split()[1])
+                    # print(cids)
+                    counter += 1
+
+    os.system('obabel {} -O {}.sdf --gen3d slowest --minimize --steps 3500 --ff -p {}'.format(
+        nombre + '.smi', 'opt' + nombre, ph))
+    os.system('obabel opt{}.sdf -O {}.pdbqt'.format(nombre, 'mini' + nombre))
+    counter = 0
+    with open('mini{}'.format(nombre + '.pdbqt'), 'r') as infile:
+        with open('min{}'.format(nombre + '.pdbqt'), 'a') as outfile:
+            for line in infile:
+                if line.split()[0] == 'REMARK' and line.split()[1] == 'Name':
+                    outfile.write('REMARK Name = {}\n'.format(','.join(map(str, [cids[counter]]))))
+                    # print(counter)
+                    counter += 1
+                else:
+                    outfile.write(line)
+    os.system('rm opt*.sdf mini*.pdbqt')
+
+
+def test(archivo):
+    nombre = os.path.splitext(archivo)[0]
+    df = pd.read_table(os.path.abspath(archivo))
+    df2 = df['Molecule']
+    with open('smiles.txt', 'w') as smiles:
+        df2.to_string(smiles)
+    with open('smiles.txt', 'r') as infile:
+        with open('{}.smi'.format(nombre), 'w') as outfile:
+            for line in infile:
+                outfile.write(line.strip().split()[1] + '\n')
+
+
+def ligand(argumento):
+    fn = os.path.splitext(argumento)[0]
+    names = []
+    with open (argumento,'r') as archin:
+        counter = 0
+        for i, line in enumerate(archin):
+            if line != '\n' and line.strip().split()[0] == '>' and line.strip().split()[1] == '<PUBCHEM_COMPOUND_CID>':
+                counter = i + 1
+            if counter != 0 and i == counter and line != '\n':
+                counter = 0
+                names.append(line.strip().split()[0])
+
+    os.system('obabel {} -O {}.sdf --gen3d --minimize'.format(argumento, 'opt' + fn))
+    os.system('obabel opt{}.sdf -O {}.pdbqt'.format(fn, 'mini' + fn))
+    counter = 0
+    with open('mini{}'.format(fn+'.pdbqt'), 'r') as infile:
+        with open('min{}'.format(fn+'.pdbqt'), 'a') as outfile:
+            for line in infile:
+                if line.split()[0] == 'REMARK' and line.split()[1] == 'Name':
+                     outfile.write('REMARK Name = {}\n'.format(','.join(map(str, [names[counter]]))))
+                     counter += 1
+                else:
+                    outfile.write(line)
+    os.system('rm opt*.sdf mini*.pdbqt')
+
+def receptor(receptor):
+
+    recep = os.path.splitext(receptor)[0]
+    cmd.load(receptor)
+    cmd.remove('resn HOH')
+    cmd.h_add(selection='acceptors or donors')
+    cmd.save('protein.pdb')
+    os.system('obabel protein.pdb -O temp.pdbqt -AddPolarH')
+    os.system('grep ATOM temp.pdbqt > {}.pdbqt'.format(recep+'min'))
+    os.remove('temp.pdbqt')
+    os.remove('protein.pdb')
+
+
+def docks(receptor):
+
+    recep = os.path.splitext(receptor)[0]
+    for filename in os.listdir(os.getcwd()):
+        if filename == receptor:
+            continue
+        lig = os.path.splitext(filename)[0]
+        # print(filename)
+
+        # print(recep)
+        # print(lig)
+
+        cmd.load(receptor)
+        cmd.load(filename)
+        cmd.save('{}'.format(recep + '-' + lig), '(all)', 1, 'pdb')
+
+        #cmd.remove('resn HOH')
+        #cmd.h_add(selection='acceptors or donors')
+        #os.system('obabel protein.pdb -O temp.pdbqt -AddPolarH')
+        #os.system('grep ATOM temp.pdbqt > {}.pdbqt'.format(recep+'min'))
+        # os.remove('temp.pdbqt')
+
+
+def split(filename, direct, prefix, limit):
+    '''
+    Separates a .pdbqt file with multiple molecules into separate files with
+    singles molecules segmented over sub directories.
+    '''
+    with open(filename) as infile:
+        count = 0
+        in_dir_count = 0
+        dircount = 0
+        for dircount in itertools.count():
+            for line in infile:
+                # if line.strip() == 'MODEL{:16}'.format(count+1):
+                if line.strip().split()[0] == 'MODEL' and line.strip().split()[1] == '{}'.format(count+1):
+                    directory = os.path.join(direct, '{}'.format(dircount+1))
+                    os.makedirs(directory, exist_ok=True)
+                    name = '{}_{:09}.pdbqt'.format(prefix, count+1)
+                    out = os.path.join(directory, name)
+                    with open(out, 'w') as outfile:
+                        for line in infile:
+                            if line.strip() == 'ENDMDL':
+                                break
+                            if line.split()[0] == 'REMARK' and line.split()[1] == 'Name':
+                                NewName = os.path.join(
+                                    directory, '{}.pdbqt'.format(line.split()[3]))
+                            outfile.write(line)
+                    os.rename(out, NewName)
+                    count += 1
+                    in_dir_count += 1
+                    if in_dir_count >= limit:
+                        in_dir_count = 0
+                        print('[+] Finished directory {}'.format(directory))
+                        break
+            else:
+                break
+    print('----------\n[+] Done')
+
+
+def vina(receptor, exhaust, pX, pY, pZ, x, y, z):
+    '''
+    para correr de manera local
+    '''
+    command = 'for file in ./Ligands/*/*; do temp=${file%.pdbqt}; name="${temp##*/}"'
+    command2 = 'awk \'/^[-+]+$/{getline;print FILENAME,$0}\' $name.log >> temp; done'
+    os.system('{}; vina --receptor {} --ligand "$file" --out $name.pdbqt --log $name.log --exhaustiveness {} --center_x {} --center_y {} --center_z {} --size_x {} --size_y {} --size_z {}; {}; sort temp -nk 3 > Results; mkdir logs; mv *.log logs; mkdir outs; mv *.pdbqt outs; mv outs/{} .'.format(command, receptor, exhaust, pX, pY, pZ, x, y, z, command2, receptor))
+
+
+parser = argparse.ArgumentParser(description='Prep ligands for AutoDock Vina')
+parser.add_argument('-r',
+                    '--receptor',
+                    nargs='+',
+                    help='Prep and convert protein receptor from PDB to PDBQT')
+parser.add_argument('-l',
+                    '--ligand',
+                    nargs='+',
+                    help='Prep and convert ligand molecules from sdf to PDBQT')
+parser.add_argument('-v',
+                    '--vina',
+                    nargs='+',
+                    help='Runs Autodockvina with given parameters')
+parser.add_argument('-s',
+                    '--split',
+                    nargs='+',
+                    help='Split a file with multiple models into single files\
+							segmented into directories')
+
+parser.add_argument('-t',
+                    '--test',
+                    nargs='+',
+                    help='Testing now')
+
+parser.add_argument('-d',
+                    '--docks',
+                    nargs='+',
+                    help='Testing now')
+
+parser.add_argument('-c',
+                    '--cores',
+                    nargs='+',
+                    help='Takes the similiratity or superstructures cores of a molecule as input\
+                            prepares them for docking generation the 3d conformation and minimizing it\
+                            with openbabel')
+args = parser.parse_args()
+
+
+def main():
+    if args.receptor:
+        receptor(sys.argv[2])
+    elif args.ligand:
+        ligand(sys.argv[2])
+    elif args.test:
+        test(sys.argv[2])
+    elif args.docks:
+        docks(sys.argv[2])
+    elif args.cores:
+        cores(sys.argv[2], sys.argv[3])
+    elif args.split:
+        split(sys.argv[2], 'Ligands', 'model', int(sys.argv[3]))
+    elif args.vina:
+        vina(sys.argv[2],  # receptor
+             sys.argv[3],    # exh
+             sys.argv[4],    # pX
+             sys.argv[5],    # pY
+             sys.argv[6],    # pZ
+             sys.argv[7],    # x
+             sys.argv[8],    # y
+             sys.argv[9])    # z
+
+
+if __name__ == '__main__':
+    main()
