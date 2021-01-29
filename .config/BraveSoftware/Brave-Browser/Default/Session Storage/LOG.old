@@ -1,0 +1,15 @@
+2021/01/28-05:31:58.249 3 Reusing MANIFEST /home/klaus/.config/BraveSoftware/Brave-Browser/Default/Session Storage/MANIFEST-000001
+2021/01/28-05:31:58.250 3 Recovering log #2850
+2021/01/28-05:31:58.251 3 Reusing old log /home/klaus/.config/BraveSoftware/Brave-Browser/Default/Session Storage/002850.log 
+2021/01/28-18:19:28.988 a0 Level-0 table #2854: started
+2021/01/28-18:19:28.991 a0 Level-0 table #2854: 18713 bytes OK
+2021/01/28-18:19:28.994 a0 Delete type=0 #2850
+2021/01/28-18:19:28.995 a2 Compacting 4@0 + 1@1 files
+2021/01/28-18:19:29.016 a2 Generated table #2855@0: 23740 keys, 582253 bytes
+2021/01/28-18:19:29.016 a2 Compacted 4@0 + 1@1 files => 582253 bytes
+2021/01/28-18:19:29.018 a2 compacted to: files[ 0 1 1 0 0 0 0 ]
+2021/01/28-18:19:29.019 a2 Delete type=2 #2848
+2021/01/28-18:19:29.019 a2 Delete type=2 #2844
+2021/01/28-18:19:29.019 a2 Delete type=2 #2854
+2021/01/28-18:19:29.019 a2 Delete type=2 #2851
+2021/01/28-18:19:29.020 a2 Delete type=2 #2846

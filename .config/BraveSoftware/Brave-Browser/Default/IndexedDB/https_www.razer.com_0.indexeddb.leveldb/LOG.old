@@ -1,0 +1,17 @@
+2020/09/20-10:28:43.597 6ba9b Reusing MANIFEST /home/klaus/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.razer.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/09/20-10:28:57.424 63b3 Level-0 table #5: started
+2020/09/20-10:28:57.426 63b3 Level-0 table #5: 549 bytes OK
+2020/09/20-10:28:57.429 63b3 Delete type=0 #3
+2020/09/20-10:28:57.429 63b3 Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)
+2020/09/20-10:28:59.429 63b3 Level-0 table #7: started
+2020/09/20-10:28:59.431 63b3 Level-0 table #7: 237 bytes OK
+2020/09/20-10:28:59.434 63b3 Delete type=0 #4
+2020/09/20-10:28:59.434 63b3 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/09/20-10:28:59.435 63b3 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x00\x00\x002\x02\x01\x01\x00\x00\x00\x00\x00\x00\x00\x00' @ 21 : 0
+2020/09/20-10:28:59.435 63b3 Compacting 1@1 + 1@2 files
+2020/09/20-10:28:59.437 63b3 Generated table #8@1: 5 keys, 237 bytes
+2020/09/20-10:28:59.437 63b3 Compacted 1@1 + 1@2 files => 237 bytes
+2020/09/20-10:28:59.440 63b3 compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/09/20-10:28:59.441 63b3 Delete type=2 #7
+2020/09/20-10:28:59.441 63b3 Delete type=2 #5
+2020/09/20-10:28:59.441 63b3 Manual compaction at level-1 from '\x00\x00\x00\x002\x02\x01\x01\x00\x00\x00\x00\x00\x00\x00\x00' @ 21 : 0 .. (end); will stop at (end)

@@ -1,0 +1,5 @@
+2020/09/11-23:33:21.617 8137a Reusing MANIFEST /home/klaus/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.humblebundle.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/09/11-23:33:43.862 548e Level-0 table #5: started
+2020/09/11-23:33:43.865 548e Level-0 table #5: 1158 bytes OK
+2020/09/11-23:33:43.868 548e Delete type=0 #3
+2020/09/11-23:33:43.868 548e Manual compaction at level-0 from (begin) .. (end); will stop at (end)

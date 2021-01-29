@@ -1,0 +1,15 @@
+2020/11/27-20:23:35.798 d43fd Reusing MANIFEST /home/klaus/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_community.rstudio.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/11/27-20:23:35.798 d43fd Recovering log #47
+2020/11/27-20:23:35.798 d43fd Reusing old log /home/klaus/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_community.rstudio.com_0.indexeddb.leveldb/000047.log 
+2020/11/27-20:26:10.833 d0511 Level-0 table #52: started
+2020/11/27-20:26:10.844 d0511 Level-0 table #52: 147431 bytes OK
+2020/11/27-20:26:10.847 d0511 Delete type=0 #47
+2020/11/27-20:26:10.847 d0511 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/11/27-20:26:10.847 d0511 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01 \x03\x00 \x81;\xc7`wB\x00\x01O\x00d\x00i\x00s\x00c\x00o\x00u\x00r\x00s\x00e\x00-\x001\x00|\x00h\x00t\x00t\x00p\x00s\x00:\x00/\x00/\x00c\x00o\x00m\x00m\x00u\x00n\x00i\x00t\x00y\x00.\x00r\x00s\x00t\x00u\x00d\x00i\x00o\x00.\x00c\x00o\x00m\x00/\x00i\x00m\x00a\x00g\x00e\x00s\x00/\x00e\x00m\x00o\x00j\x00i\x00/\x00a\x00p\x00p\x00l\x00e\x00/\x00h\x00e\x00a\x00r\x00t\x00p\x00u\x00l\x00s\x00e\x00.\x00p\x00n\x00g\x00?\x00v\x00=\x009' @ 23045 : 1
+2020/11/27-20:26:10.847 d0511 Compacting 1@1 + 1@2 files
+2020/11/27-20:26:10.851 d0511 Generated table #53@1: 542 keys, 72992 bytes
+2020/11/27-20:26:10.851 d0511 Compacted 1@1 + 1@2 files => 72992 bytes
+2020/11/27-20:26:10.853 d0511 compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/11/27-20:26:10.853 d0511 Delete type=2 #52
+2020/11/27-20:26:10.853 d0511 Delete type=2 #49
+2020/11/27-20:26:10.853 d0511 Manual compaction at level-1 from '\x00\x01\x01 \x03\x00 \x81;\xc7`wB\x00\x01O\x00d\x00i\x00s\x00c\x00o\x00u\x00r\x00s\x00e\x00-\x001\x00|\x00h\x00t\x00t\x00p\x00s\x00:\x00/\x00/\x00c\x00o\x00m\x00m\x00u\x00n\x00i\x00t\x00y\x00.\x00r\x00s\x00t\x00u\x00d\x00i\x00o\x00.\x00c\x00o\x00m\x00/\x00i\x00m\x00a\x00g\x00e\x00s\x00/\x00e\x00m\x00o\x00j\x00i\x00/\x00a\x00p\x00p\x00l\x00e\x00/\x00h\x00e\x00a\x00r\x00t\x00p\x00u\x00l\x00s\x00e\x00.\x00p\x00n\x00g\x00?\x00v\x00=\x009' @ 23045 : 1 .. (end); will stop at (end)

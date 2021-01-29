@@ -1,0 +1,69 @@
+{
+  "add books dialog dir": "/home/klaus/Calibre Library",
+  "catalogs_to_be_synced": {
+    "__class__": "set",
+    "__value__": []
+  },
+  "notified-version-updates": {
+    "__class__": "set",
+    "__value__": [
+      "5.8"
+    ]
+  },
+  "sort_history": [
+    [
+      "ondevice",
+      false
+    ],
+    [
+      "ondevice",
+      true
+    ],
+    [
+      "authors",
+      false
+    ],
+    [
+      "authors",
+      true
+    ],
+    [
+      "authors",
+      false
+    ],
+    [
+      "authors",
+      true
+    ],
+    [
+      "title",
+      true
+    ],
+    [
+      "pubdate",
+      true
+    ],
+    [
+      "timestamp",
+      false
+    ],
+    [
+      "timestamp",
+      true
+    ],
+    [
+      "authors",
+      true
+    ],
+    [
+      "timestamp",
+      false
+    ],
+    [
+      "timestamp",
+      false
+    ]
+  ],
+  "welcome_wizard_device": "kindle_pw",
+  "welcome_wizard_was_run": true
+}

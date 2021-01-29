@@ -1,0 +1,8 @@
+2021/01/23-18:07:38.589 409cc Reusing MANIFEST /home/klaus/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.primevideo.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/01/23-18:07:38.589 409cc Recovering log #39
+2021/01/23-18:07:38.589 409cc Reusing old log /home/klaus/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.primevideo.com_0.indexeddb.leveldb/000039.log 
+2021/01/23-18:08:11.180 3f68f Level-0 table #44: started
+2021/01/23-18:08:11.180 3f68f Level-0 table #44: 0 bytes OK
+2021/01/23-18:08:11.183 3f68f Delete type=0 #39
+2021/01/23-18:08:11.183 3f68f Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2021/01/23-18:08:11.183 3f68f Manual compaction at level-1 from (begin) .. (end); will stop at (end)

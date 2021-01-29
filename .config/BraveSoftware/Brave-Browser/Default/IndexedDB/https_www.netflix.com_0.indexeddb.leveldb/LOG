@@ -1,0 +1,69 @@
+2021/01/26-22:45:08.312 1963dc Reusing MANIFEST /home/klaus/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.netflix.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/01/26-22:45:08.312 1963dc Recovering log #1560
+2021/01/26-22:45:08.312 1963dc Reusing old log /home/klaus/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.netflix.com_0.indexeddb.leveldb/001560.log 
+2021/01/26-23:27:44.131 198208 Level-0 table #1566: started
+2021/01/26-23:27:44.173 198208 Level-0 table #1566: 2254800 bytes OK
+2021/01/26-23:27:44.176 198208 Delete type=0 #1560
+2021/01/26-23:31:28.131 1963db Compacting 1@1 + 1@2 files
+2021/01/26-23:31:28.149 1963db Generated table #1567@1: 68 keys, 28184 bytes
+2021/01/26-23:31:28.149 1963db Compacted 1@1 + 1@2 files => 28184 bytes
+2021/01/26-23:31:28.151 1963db compacted to: files[ 0 0 1 0 0 0 0 ]
+2021/01/26-23:31:28.152 1963db Delete type=2 #1566
+2021/01/26-23:31:28.152 1963db Delete type=2 #1563
+2021/01/27-00:13:25.217 198208 Level-0 table #1569: started
+2021/01/27-00:13:25.263 198208 Level-0 table #1569: 2522014 bytes OK
+2021/01/27-00:13:25.266 198208 Delete type=0 #1565
+2021/01/27-00:16:17.984 1963db Compacting 1@1 + 1@2 files
+2021/01/27-00:16:18.004 1963db Generated table #1570@1: 67 keys, 30728 bytes
+2021/01/27-00:16:18.004 1963db Compacted 1@1 + 1@2 files => 30728 bytes
+2021/01/27-00:16:18.006 1963db compacted to: files[ 0 0 1 0 0 0 0 ]
+2021/01/27-00:16:18.007 1963db Delete type=2 #1567
+2021/01/27-00:16:18.007 1963db Delete type=2 #1569
+2021/01/27-00:58:04.005 198208 Level-0 table #1572: started
+2021/01/27-00:58:04.049 198208 Level-0 table #1572: 2292053 bytes OK
+2021/01/27-00:58:04.053 198208 Delete type=0 #1568
+2021/01/27-01:04:36.541 1963db Compacting 1@1 + 1@2 files
+2021/01/27-01:04:36.556 1963db Generated table #1573@1: 68 keys, 27934 bytes
+2021/01/27-01:04:36.556 1963db Compacted 1@1 + 1@2 files => 27934 bytes
+2021/01/27-01:04:36.558 1963db compacted to: files[ 0 0 1 0 0 0 0 ]
+2021/01/27-01:04:36.559 1963db Delete type=2 #1572
+2021/01/27-01:04:36.559 1963db Delete type=2 #1570
+2021/01/27-01:44:12.856 1963db Level-0 table #1575: started
+2021/01/27-01:44:12.897 1963db Level-0 table #1575: 2305179 bytes OK
+2021/01/27-01:44:12.900 1963db Delete type=0 #1571
+2021/01/27-01:49:40.858 1ab3de Compacting 1@1 + 1@2 files
+2021/01/27-01:49:40.876 1ab3de Generated table #1576@1: 68 keys, 28766 bytes
+2021/01/27-01:49:40.876 1ab3de Compacted 1@1 + 1@2 files => 28766 bytes
+2021/01/27-01:49:40.879 1ab3de compacted to: files[ 0 0 1 0 0 0 0 ]
+2021/01/27-01:49:40.879 1ab3de Delete type=2 #1575
+2021/01/27-01:49:40.879 1ab3de Delete type=2 #1573
+2021/01/27-02:29:35.700 1b31d1 Level-0 table #1578: started
+2021/01/27-02:29:35.729 1b31d1 Level-0 table #1578: 2331741 bytes OK
+2021/01/27-02:29:35.732 1b31d1 Delete type=0 #1574
+2021/01/27-02:33:37.813 1b31d1 Compacting 1@1 + 1@2 files
+2021/01/27-02:33:37.834 1b31d1 Generated table #1579@1: 67 keys, 31373 bytes
+2021/01/27-02:33:37.834 1b31d1 Compacted 1@1 + 1@2 files => 31373 bytes
+2021/01/27-02:33:37.836 1b31d1 compacted to: files[ 0 0 1 0 0 0 0 ]
+2021/01/27-02:33:37.837 1b31d1 Delete type=2 #1576
+2021/01/27-02:33:37.837 1b31d1 Delete type=2 #1578
+2021/01/27-03:15:50.442 1963db Level-0 table #1581: started
+2021/01/27-03:15:50.519 1963db Level-0 table #1581: 2229575 bytes OK
+2021/01/27-03:15:50.524 1963db Delete type=0 #1577
+2021/01/27-03:18:20.057 1ba9c3 Compacting 1@1 + 1@2 files
+2021/01/27-03:18:20.063 1ba9c3 Generated table #1582@1: 67 keys, 28414 bytes
+2021/01/27-03:18:20.063 1ba9c3 Compacted 1@1 + 1@2 files => 28414 bytes
+2021/01/27-03:18:20.065 1ba9c3 compacted to: files[ 0 0 1 0 0 0 0 ]
+2021/01/27-03:18:20.065 1ba9c3 Delete type=2 #1581
+2021/01/27-03:18:20.065 1ba9c3 Delete type=2 #1579
+2021/01/27-03:58:23.953 1963db Level-0 table #1584: started
+2021/01/27-03:58:23.992 1963db Level-0 table #1584: 1832982 bytes OK
+2021/01/27-03:58:23.997 1963db Delete type=0 #1580
+2021/01/27-03:58:23.999 1963db Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2021/01/27-03:58:23.999 1963db Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x02\x01\x02\x01\x13\x00I\x00S\x00_\x00P\x00U\x00S\x00H\x00_\x00E\x00N\x00A\x00B\x00L\x00E\x00D\x00_\x00K\x00E\x00Y' @ 4107478 : 1
+2021/01/27-03:58:23.999 1963db Compacting 1@1 + 1@2 files
+2021/01/27-03:58:24.006 1963db Generated table #1585@1: 64 keys, 26686 bytes
+2021/01/27-03:58:24.006 1963db Compacted 1@1 + 1@2 files => 26686 bytes
+2021/01/27-03:58:24.008 1963db compacted to: files[ 0 0 1 0 0 0 0 ]
+2021/01/27-03:58:24.008 1963db Delete type=2 #1582
+2021/01/27-03:58:24.008 1963db Delete type=2 #1584
+2021/01/27-03:58:24.009 1963db Manual compaction at level-1 from '\x00\x02\x01\x02\x01\x13\x00I\x00S\x00_\x00P\x00U\x00S\x00H\x00_\x00E\x00N\x00A\x00B\x00L\x00E\x00D\x00_\x00K\x00E\x00Y' @ 4107478 : 1 .. (end); will stop at (end)

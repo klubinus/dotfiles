@@ -1,0 +1,8 @@
+2020/09/02-18:08:35.693 44807 Reusing MANIFEST /home/klaus/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.thermofisher.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/09/02-18:08:35.693 44807 Recovering log #724
+2020/09/02-18:08:35.694 44807 Reusing old log /home/klaus/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.thermofisher.com_0.indexeddb.leveldb/000724.log 
+2020/09/02-18:09:07.696 bca Level-0 table #728: started
+2020/09/02-18:09:07.696 bca Level-0 table #728: 0 bytes OK
+2020/09/02-18:09:07.700 bca Delete type=0 #724
+2020/09/02-18:09:07.700 bca Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/09/02-18:09:07.700 bca Manual compaction at level-1 from (begin) .. (end); will stop at (end)

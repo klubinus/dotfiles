@@ -1,0 +1,7 @@
+2020/09/27-17:46:15.265 5ec Reusing MANIFEST /home/klaus/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.gamerevolution.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/09/27-17:46:15.265 5ec Recovering log #3
+2020/09/27-17:46:15.266 5ec Reusing old log /home/klaus/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.gamerevolution.com_0.indexeddb.leveldb/000003.log 
+2020/09/27-17:46:19.845 926 Level-0 table #5: started
+2020/09/27-17:46:19.852 926 Level-0 table #5: 9739 bytes OK
+2020/09/27-17:46:19.854 926 Delete type=0 #3
+2020/09/27-17:46:19.854 926 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

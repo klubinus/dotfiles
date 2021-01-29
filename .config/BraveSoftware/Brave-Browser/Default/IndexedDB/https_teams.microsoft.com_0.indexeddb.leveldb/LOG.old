@@ -1,0 +1,8 @@
+2020/09/25-09:26:11.180 7b438 Reusing MANIFEST /home/klaus/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_teams.microsoft.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/09/25-09:26:11.180 7b438 Recovering log #166
+2020/09/25-09:26:11.180 7b438 Reusing old log /home/klaus/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_teams.microsoft.com_0.indexeddb.leveldb/000166.log 
+2020/09/25-09:26:13.376 99d Level-0 table #171: started
+2020/09/25-09:26:13.376 99d Level-0 table #171: 0 bytes OK
+2020/09/25-09:26:13.383 99d Delete type=0 #166
+2020/09/25-09:26:13.383 99d Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/09/25-09:26:13.384 99d Manual compaction at level-1 from (begin) .. (end); will stop at (end)

@@ -1,0 +1,15 @@
+2020/12/12-01:04:36.031 1628f Reusing MANIFEST /home/klaus/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.menshealth.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/12/12-01:04:36.031 1628f Recovering log #4
+2020/12/12-01:04:36.031 1628f Reusing old log /home/klaus/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.menshealth.com_0.indexeddb.leveldb/000004.log 
+2020/12/12-01:05:16.631 19727 Level-0 table #8: started
+2020/12/12-01:05:16.638 19727 Level-0 table #8: 4175 bytes OK
+2020/12/12-01:05:16.641 19727 Delete type=0 #4
+2020/12/12-01:05:16.641 19727 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/12/12-01:05:16.641 19727 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01 \x03\x00\x00\xd4\xd0XewB\x00\x01H\x00g\x00l\x00i\x00m\x00m\x00e\x00r\x00-\x00s\x00t\x00a\x00t\x00i\x00c\x00|\x00h\x00t\x00t\x00p\x00s\x00:\x00/\x00/\x00g\x00l\x00i\x00m\x00m\x00e\x00r\x00.\x00h\x00e\x00a\x00r\x00s\x00t\x00a\x00p\x00p\x00s\x00.\x00c\x00o\x00m\x00/\x00s\x00t\x00a\x00t\x00i\x00c\x00/\x00g\x00l\x00i\x00m\x00m\x00e\x00r\x00.\x00e\x00c\x005\x00b\x00b\x007\x001\x007\x00.\x00j\x00s' @ 244 : 1
+2020/12/12-01:05:16.642 19727 Compacting 1@1 + 1@2 files
+2020/12/12-01:05:16.644 19727 Generated table #9@1: 46 keys, 2037 bytes
+2020/12/12-01:05:16.645 19727 Compacted 1@1 + 1@2 files => 2037 bytes
+2020/12/12-01:05:16.647 19727 compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/12/12-01:05:16.647 19727 Delete type=2 #8
+2020/12/12-01:05:16.648 19727 Delete type=2 #5
+2020/12/12-01:05:16.648 19727 Manual compaction at level-1 from '\x00\x01\x01 \x03\x00\x00\xd4\xd0XewB\x00\x01H\x00g\x00l\x00i\x00m\x00m\x00e\x00r\x00-\x00s\x00t\x00a\x00t\x00i\x00c\x00|\x00h\x00t\x00t\x00p\x00s\x00:\x00/\x00/\x00g\x00l\x00i\x00m\x00m\x00e\x00r\x00.\x00h\x00e\x00a\x00r\x00s\x00t\x00a\x00p\x00p\x00s\x00.\x00c\x00o\x00m\x00/\x00s\x00t\x00a\x00t\x00i\x00c\x00/\x00g\x00l\x00i\x00m\x00m\x00e\x00r\x00.\x00e\x00c\x005\x00b\x00b\x007\x001\x007\x00.\x00j\x00s' @ 244 : 1 .. (end); will stop at (end)

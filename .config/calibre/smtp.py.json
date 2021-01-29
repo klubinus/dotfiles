@@ -1,0 +1,18 @@
+{
+  "accounts": {
+    "franz_7721@kindle.com": [
+      "AZW, MOBI, TPZ, PRC, AZW1",
+      true,
+      true
+    ]
+  },
+  "aliases": {},
+  "encryption": "SSL",
+  "from_": "klaus@lubinus.co",
+  "relay_host": "imap.domain.com",
+  "relay_password": "4361246430663163",
+  "relay_port": 465,
+  "relay_username": "klaus@lubinus.co",
+  "subjects": {},
+  "tags": {}
+}

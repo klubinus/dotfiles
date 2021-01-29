@@ -1,0 +1,15 @@
+2020/08/19-10:56:13.159 15936 Reusing MANIFEST /home/klaus/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.audible.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/08/19-10:56:13.159 15936 Recovering log #11
+2020/08/19-10:56:13.159 15936 Reusing old log /home/klaus/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.audible.com_0.indexeddb.leveldb/000011.log 
+2020/08/19-10:56:21.022 e0f Level-0 table #16: started
+2020/08/19-10:56:21.026 e0f Level-0 table #16: 1010 bytes OK
+2020/08/19-10:56:21.028 e0f Delete type=0 #11
+2020/08/19-10:56:21.028 e0f Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/08/19-10:56:21.028 e0f Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01\x1f\x03\x00\x80\x0afz@wB\x00\x01\x14\x00D\x00W\x006\x00T\x00S\x005\x003\x001\x008\x00F\x00Q\x001\x00N\x00D\x00X\x00N\x002\x008\x007\x00T' @ 185 : 1
+2020/08/19-10:56:21.028 e0f Compacting 1@1 + 1@2 files
+2020/08/19-10:56:21.030 e0f Generated table #17@1: 48 keys, 1388 bytes
+2020/08/19-10:56:21.030 e0f Compacted 1@1 + 1@2 files => 1388 bytes
+2020/08/19-10:56:21.032 e0f compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/08/19-10:56:21.032 e0f Delete type=2 #13
+2020/08/19-10:56:21.032 e0f Delete type=2 #16
+2020/08/19-10:56:21.032 e0f Manual compaction at level-1 from '\x00\x01\x01\x1f\x03\x00\x80\x0afz@wB\x00\x01\x14\x00D\x00W\x006\x00T\x00S\x005\x003\x001\x008\x00F\x00Q\x001\x00N\x00D\x00X\x00N\x002\x008\x007\x00T' @ 185 : 1 .. (end); will stop at (end)

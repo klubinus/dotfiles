@@ -1,0 +1,68 @@
+{
+  "main_window_geometry": {
+    "__class__": "bytearray",
+    "__value__": "AdnQywADAAAAAAAeAAAAHwAABBYAAAQtAAAAIQAAACIAAAQTAAAEKgAAAAAAAAAAB4AAAAAhAAAAIgAABBMAAAQq"
+  },
+  "main_window_state": {
+    "__class__": "bytearray",
+    "__value__": "AAAA/wAAAAH9AAAAAgAAAAAAAAAAAAAAAPwCAAAAAvsAAAAQAHQAbwBjAC0AZABvAGMAawAAAAAA/////wAAAIcA////+wAAABYAcwBlAGEAcgBjAGgALQBkAG8AYwBrAAAAAAD/////AAAAlQD///8AAAABAAAAAAAAAAD8AgAAAAT7AAAAFgBsAG8AbwBrAHUAcAAtAGQAbwBjAGsAAAAAAP////8AAAB9AP////sAAAAcAGIAbwBvAGsAbQBhAHIAawBzAC0AZABvAGMAawAAAAAA/////wAAAOcA////+wAAABwAaQBuAHMAcABlAGMAdABvAHIALQBkAG8AYwBrAAAAAAD/////AAAAEwD////7AAAAHgBoAGkAZwBoAGwAaQBnAGgAdABzAC0AZABvAGMAawAAAAAA/////wAAAMkA////AAAD8wAABAkAAAAEAAAABAAAAAgAAAAI/AAAAAEAAAAAAAAAAQAAAB4AYQBjAHQAaQBvAG4AcwBfAHQAbwBvAGwAYgBhAHICAAAAAP////8AAAAAAAAAAA=="
+  },
+  "old_prefs_migrated": true,
+  "session_data": {
+    "controls_help_shown_count": 2,
+    "standalone_font_settings": {},
+    "standalone_misc_settings": {
+      "remember_last_read": true,
+      "remember_window_geometry": false,
+      "save_annotations_in_ebook": true,
+      "singleinstance": false
+    },
+    "standalone_recently_opened": [
+      {
+        "authors": [
+          "Emmett Dulaney"
+        ],
+        "key": "/home/klaus/Calibre Library/Emmett Dulaney/Linux(r) All-in-One For Dummies(r) (33)/Linux(r) All-in-One For Dummies(r) - Emmett Dulaney.azw",
+        "pathtoebook": "/home/klaus/Calibre Library/Emmett Dulaney/Linux(r) All-in-One For Dummies(r) (33)/Linux(r) All-in-One For Dummies(r) - Emmett Dulaney.azw",
+        "timestamp": "2021-01-02T07:42:39.741Z",
+        "title": "Linux® All-in-One For Dummies®"
+      },
+      {
+        "authors": [
+          "Franz A.Lubinus"
+        ],
+        "key": "/home/klaus/Calibre Library/Unknown/Computational Systems Biology Methods in molecular Biology (21)/Computational Systems Biology Methods in m - Unknown.azw3",
+        "pathtoebook": "/home/klaus/Calibre Library/Unknown/Computational Systems Biology Methods in molecular Biology (21)/Computational Systems Biology Methods in m - Unknown.azw3",
+        "timestamp": "2021-01-02T07:20:08.112Z",
+        "title": "Computational Systems Biology Methods in molecular Biology"
+      },
+      {
+        "authors": [
+          "Franz A.Lubinus"
+        ],
+        "key": "/home/klaus/Calibre Library/Unknown/Biology and Human Behavior (28)/Biology and Human Behavior - Unknown.azw3",
+        "pathtoebook": "/home/klaus/Calibre Library/Unknown/Biology and Human Behavior (28)/Biology and Human Behavior - Unknown.azw3",
+        "timestamp": "2021-01-02T07:12:38.627Z",
+        "title": "Biology and Human Behavior"
+      },
+      {
+        "authors": [
+          "Franz A.Lubinus"
+        ],
+        "key": "/home/klaus/Calibre Library/Franz A.Lubinus/Behave The Biology of Humans at Our Best and Worst (44)/Behave The Biology of Humans at Our Best a - Franz A.Lubinus.azw3",
+        "pathtoebook": "/home/klaus/Calibre Library/Franz A.Lubinus/Behave The Biology of Humans at Our Best and Worst (44)/Behave The Biology of Humans at Our Best a - Franz A.Lubinus.azw3",
+        "timestamp": "2021-01-02T07:03:40.789Z",
+        "title": "Behave The Biology of Humans at Our Best and Worst"
+      },
+      {
+        "authors": [
+          "Andrew R. Leach"
+        ],
+        "key": "/home/klaus/Calibre Library/Andrew R. Leach/Molecular Modelling - Principles and Applications 2nd ed (2)/Molecular Modelling - Principles and Appli - Andrew R. Leach.mobi",
+        "pathtoebook": "/home/klaus/Calibre Library/Andrew R. Leach/Molecular Modelling - Principles and Applications 2nd ed (2)/Molecular Modelling - Principles and Appli - Andrew R. Leach.mobi",
+        "timestamp": "2021-01-02T06:39:30.719Z",
+        "title": "Molecular Modelling - Principles and Applications 2nd ed"
+      }
+    ]
+  }
+}

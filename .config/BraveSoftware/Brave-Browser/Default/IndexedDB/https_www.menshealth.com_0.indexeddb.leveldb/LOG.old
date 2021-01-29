@@ -1,0 +1,5 @@
+2020/09/03-16:05:36.022 cc69b Reusing MANIFEST /home/klaus/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.menshealth.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/09/03-16:07:07.740 bca Level-0 table #5: started
+2020/09/03-16:07:07.742 bca Level-0 table #5: 4007 bytes OK
+2020/09/03-16:07:07.745 bca Delete type=0 #3
+2020/09/03-16:07:07.745 bca Manual compaction at level-0 from (begin) .. (end); will stop at (end)

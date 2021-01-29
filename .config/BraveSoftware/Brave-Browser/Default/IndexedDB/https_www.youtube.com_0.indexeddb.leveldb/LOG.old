@@ -1,0 +1,66 @@
+2021/01/28-05:33:24.402 4852d Reusing MANIFEST /home/klaus/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/01/28-05:33:24.403 4852d Recovering log #355
+2021/01/28-05:33:24.406 4852d Reusing old log /home/klaus/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000355.log 
+2021/01/28-05:33:24.406 4852d Delete type=2 #356
+2021/01/28-05:33:24.406 4852d Delete type=2 #353
+2021/01/28-08:51:20.931 4e292 Level-0 table #360: started
+2021/01/28-08:51:20.963 4e292 Level-0 table #360: 1613320 bytes OK
+2021/01/28-08:51:20.969 4e292 Delete type=0 #355
+2021/01/28-08:51:21.595 4d6b2 Compacting 1@1 + 1@2 files
+2021/01/28-08:51:21.606 4d6b2 Generated table #361@1: 341 keys, 78244 bytes
+2021/01/28-08:51:21.606 4d6b2 Compacted 1@1 + 1@2 files => 78244 bytes
+2021/01/28-08:51:21.608 4d6b2 compacted to: files[ 0 0 1 0 0 0 0 ]
+2021/01/28-08:51:21.608 4d6b2 Delete type=2 #360
+2021/01/28-08:51:21.608 4d6b2 Delete type=2 #357
+2021/01/28-13:16:02.355 72dfe Level-0 table #363: started
+2021/01/28-13:16:02.372 72dfe Level-0 table #363: 1524889 bytes OK
+2021/01/28-13:16:02.374 72dfe Delete type=0 #359
+2021/01/28-13:16:39.545 73a5b Compacting 1@1 + 1@2 files
+2021/01/28-13:16:39.551 73a5b Generated table #364@1: 233 keys, 41368 bytes
+2021/01/28-13:16:39.551 73a5b Compacted 1@1 + 1@2 files => 41368 bytes
+2021/01/28-13:16:39.553 73a5b compacted to: files[ 0 0 1 0 0 0 0 ]
+2021/01/28-13:16:39.553 73a5b Delete type=2 #363
+2021/01/28-13:16:39.553 73a5b Delete type=2 #361
+2021/01/28-14:20:48.754 7dc1f Level-0 table #366: started
+2021/01/28-14:20:48.796 7dc1f Level-0 table #366: 1383330 bytes OK
+2021/01/28-14:20:48.806 7dc1f Delete type=0 #362
+2021/01/28-14:20:49.886 7d717 Compacting 1@1 + 1@2 files
+2021/01/28-14:20:49.905 7d717 Generated table #367@1: 218 keys, 33755 bytes
+2021/01/28-14:20:49.905 7d717 Compacted 1@1 + 1@2 files => 33755 bytes
+2021/01/28-14:20:49.908 7d717 compacted to: files[ 0 0 1 0 0 0 0 ]
+2021/01/28-14:20:49.908 7d717 Delete type=2 #366
+2021/01/28-14:20:49.909 7d717 Delete type=2 #364
+2021/01/28-16:22:05.416 8f671 Level-0 table #369: started
+2021/01/28-16:22:05.483 8f671 Level-0 table #369: 1517640 bytes OK
+2021/01/28-16:22:05.487 8f671 Delete type=0 #365
+2021/01/28-16:22:08.366 8f671 Compacting 1@1 + 1@2 files
+2021/01/28-16:22:08.385 8f671 Generated table #370@1: 204 keys, 13603 bytes
+2021/01/28-16:22:08.385 8f671 Compacted 1@1 + 1@2 files => 13603 bytes
+2021/01/28-16:22:08.388 8f671 compacted to: files[ 0 0 1 0 0 0 0 ]
+2021/01/28-16:22:08.388 8f671 Delete type=2 #369
+2021/01/28-16:22:08.388 8f671 Delete type=2 #367
+2021/01/28-18:42:06.572 a0421 Level-0 table #372: started
+2021/01/28-18:42:06.652 a0421 Level-0 table #372: 1577505 bytes OK
+2021/01/28-18:42:06.656 a0421 Delete type=0 #368
+2021/01/28-18:42:07.971 a34bb Compacting 1@1 + 1@2 files
+2021/01/28-18:42:07.993 a34bb Generated table #373@1: 330 keys, 38090 bytes
+2021/01/28-18:42:07.993 a34bb Compacted 1@1 + 1@2 files => 38090 bytes
+2021/01/28-18:42:07.996 a34bb compacted to: files[ 0 0 1 0 0 0 0 ]
+2021/01/28-21:18:37.265 b534a Level-0 table #375: started
+2021/01/28-21:18:37.331 b534a Level-0 table #375: 1555218 bytes OK
+2021/01/28-21:18:37.336 b534a Delete type=2 #370
+2021/01/28-21:18:37.336 b534a Delete type=2 #372
+2021/01/28-21:18:37.336 b534a Delete type=0 #371
+2021/01/28-21:18:38.536 bc4aa Compacting 1@1 + 1@2 files
+2021/01/28-21:18:38.560 bc4aa Generated table #376@1: 333 keys, 56540 bytes
+2021/01/28-21:18:38.560 bc4aa Compacted 1@1 + 1@2 files => 56540 bytes
+2021/01/28-21:18:38.562 bc4aa compacted to: files[ 0 0 1 0 0 0 0 ]
+2021/01/28-21:18:38.562 bc4aa Delete type=2 #375
+2021/01/28-21:18:38.562 bc4aa Delete type=2 #373
+2021/01/28-22:21:30.409 c40b9 Level-0 table #378: started
+2021/01/28-22:21:30.439 c40b9 Level-0 table #378: 1431293 bytes OK
+2021/01/28-22:21:30.443 c40b9 Delete type=0 #374
+2021/01/28-22:21:32.092 c5532 Compacting 1@1 + 1@2 files
+2021/01/28-22:21:32.113 c5532 Generated table #379@1: 238 keys, 50175 bytes
+2021/01/28-22:21:32.113 c5532 Compacted 1@1 + 1@2 files => 50175 bytes
+2021/01/28-22:21:32.116 c5532 compacted to: files[ 0 0 1 0 0 0 0 ]

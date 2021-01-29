@@ -1,0 +1,15 @@
+2020/12/22-12:18:16.747 8ea9e Reusing MANIFEST /home/klaus/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.alkosto.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/12/22-12:18:16.747 8ea9e Recovering log #10
+2020/12/22-12:18:16.747 8ea9e Reusing old log /home/klaus/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.alkosto.com_0.indexeddb.leveldb/000010.log 
+2020/12/26-15:18:57.782 12eedc Level-0 table #14: started
+2020/12/26-15:18:57.785 12eedc Level-0 table #14: 1239 bytes OK
+2020/12/26-15:18:57.789 12eedc Delete type=0 #10
+2020/12/26-15:18:57.790 12eedc Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/12/26-15:18:57.790 12eedc Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x02\x00\x00\xc8 \x00l\x00o\x00c\x00a\x00l\x00-\x00f\x00o\x00r\x00a\x00g\x00e\x00-\x00d\x00e\x00t\x00e\x00c\x00t\x00-\x00b\x00l\x00o\x00b\x00-\x00s\x00u\x00p\x00p\x00o\x00r\x00t' @ 130 : 1
+2020/12/26-15:18:57.790 12eedc Compacting 1@1 + 1@2 files
+2020/12/26-15:18:57.792 12eedc Generated table #15@1: 52 keys, 1205 bytes
+2020/12/26-15:18:57.793 12eedc Compacted 1@1 + 1@2 files => 1205 bytes
+2020/12/26-15:18:57.795 12eedc compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/12/26-15:18:57.795 12eedc Delete type=2 #5
+2020/12/26-15:18:57.795 12eedc Delete type=2 #14
+2020/12/26-15:18:57.796 12eedc Manual compaction at level-1 from '\x00\x02\x00\x00\xc8 \x00l\x00o\x00c\x00a\x00l\x00-\x00f\x00o\x00r\x00a\x00g\x00e\x00-\x00d\x00e\x00t\x00e\x00c\x00t\x00-\x00b\x00l\x00o\x00b\x00-\x00s\x00u\x00p\x00p\x00o\x00r\x00t' @ 130 : 1 .. (end); will stop at (end)

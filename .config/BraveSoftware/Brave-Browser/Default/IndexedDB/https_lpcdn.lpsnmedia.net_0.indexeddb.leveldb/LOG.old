@@ -1,0 +1,15 @@
+2021/01/27-18:36:59.381 1f73fc Reusing MANIFEST /home/klaus/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_lpcdn.lpsnmedia.net_0.indexeddb.leveldb/MANIFEST-000001
+2021/01/27-18:36:59.381 1f73fc Recovering log #4
+2021/01/27-18:36:59.381 1f73fc Reusing old log /home/klaus/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_lpcdn.lpsnmedia.net_0.indexeddb.leveldb/000004.log 
+2021/01/27-18:38:05.824 1f70fc Level-0 table #8: started
+2021/01/27-18:38:05.827 1f70fc Level-0 table #8: 988 bytes OK
+2021/01/27-18:38:05.829 1f70fc Delete type=0 #4
+2021/01/27-18:38:05.830 1f70fc Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2021/01/27-18:38:05.830 1f70fc Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01\x02\x01+\x00u\x00n\x00A\x00u\x00t\x00h\x00M\x00e\x00s\x00s\x00a\x00g\x00i\x00n\x00g\x00-\x00s\x00t\x00o\x00r\x00a\x00g\x00e\x00_\x00e\x00x\x00p\x00i\x00r\x00a\x00t\x00i\x00o\x00n\x00-\x002\x004\x006\x001\x000\x005\x006\x003' @ 113 : 1
+2021/01/27-18:38:05.830 1f70fc Compacting 1@1 + 1@2 files
+2021/01/27-18:38:05.832 1f70fc Generated table #9@1: 21 keys, 742 bytes
+2021/01/27-18:38:05.832 1f70fc Compacted 1@1 + 1@2 files => 742 bytes
+2021/01/27-18:38:05.835 1f70fc compacted to: files[ 0 0 1 0 0 0 0 ]
+2021/01/27-18:38:05.835 1f70fc Delete type=2 #8
+2021/01/27-18:38:05.835 1f70fc Delete type=2 #5
+2021/01/27-18:38:05.836 1f70fc Manual compaction at level-1 from '\x00\x01\x01\x02\x01+\x00u\x00n\x00A\x00u\x00t\x00h\x00M\x00e\x00s\x00s\x00a\x00g\x00i\x00n\x00g\x00-\x00s\x00t\x00o\x00r\x00a\x00g\x00e\x00_\x00e\x00x\x00p\x00i\x00r\x00a\x00t\x00i\x00o\x00n\x00-\x002\x004\x006\x001\x000\x005\x006\x003' @ 113 : 1 .. (end); will stop at (end)

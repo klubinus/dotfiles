@@ -1,0 +1,15 @@
+2020/09/13-14:28:40.419 8be88 Reusing MANIFEST /home/klaus/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_docs.linuxserver.io_0.indexeddb.leveldb/MANIFEST-000001
+2020/09/13-14:28:40.419 8be88 Recovering log #4
+2020/09/13-14:28:40.419 8be88 Reusing old log /home/klaus/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_docs.linuxserver.io_0.indexeddb.leveldb/000004.log 
+2020/09/13-14:32:51.157 bf0 Level-0 table #8: started
+2020/09/13-14:32:51.161 bf0 Level-0 table #8: 499 bytes OK
+2020/09/13-14:32:51.164 bf0 Delete type=0 #4
+2020/09/13-14:32:51.165 bf0 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/09/13-14:32:51.165 bf0 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01\x02\x01\x0e\x00_\x00_\x00s\x00a\x00k\x009\x003\x004\x005\x003\x008\x001\x005\x002' @ 64 : 1
+2020/09/13-14:32:51.165 bf0 Compacting 1@1 + 1@2 files
+2020/09/13-14:32:51.167 bf0 Generated table #9@1: 18 keys, 550 bytes
+2020/09/13-14:32:51.167 bf0 Compacted 1@1 + 1@2 files => 550 bytes
+2020/09/13-14:32:51.170 bf0 compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/09/13-14:32:51.170 bf0 Delete type=2 #8
+2020/09/13-14:32:51.170 bf0 Delete type=2 #5
+2020/09/13-14:32:51.171 bf0 Manual compaction at level-1 from '\x00\x01\x01\x02\x01\x0e\x00_\x00_\x00s\x00a\x00k\x009\x003\x004\x005\x003\x008\x001\x005\x002' @ 64 : 1 .. (end); will stop at (end)

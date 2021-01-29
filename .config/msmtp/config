@@ -1,0 +1,23 @@
+defaults
+auth	on
+tls	on
+tls_trust_file	/etc/ssl/certs/ca-certificates.crt
+logfile	~/.config/msmtp/msmtp.log
+
+account lubinusco
+host smtp.domain.com
+port 25
+from klaus@lubinus.co
+user klaus@lubinus.co
+passwordeval "pass mutt-wizard-lubinusco"
+
+
+
+
+
+account javeriana
+host smtp.office365.com
+port 587
+from klubinus@javeriana.edu.co
+user klubinus@javeriana.edu.co
+passwordeval "pass mutt-wizard-javeriana"

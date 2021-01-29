@@ -1,0 +1,5 @@
+2021/01/28-21:06:48.056 bab6c Reusing MANIFEST /home/klaus/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.nordtheme.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/01/28-21:07:37.097 bab6c Level-0 table #5: started
+2021/01/28-21:07:37.100 bab6c Level-0 table #5: 2895 bytes OK
+2021/01/28-21:07:37.103 bab6c Delete type=0 #3
+2021/01/28-21:07:37.103 bab6c Manual compaction at level-0 from (begin) .. (end); will stop at (end)

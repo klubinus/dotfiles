@@ -1,0 +1,37 @@
+2020/09/20-10:29:37.511 6ba9b Reusing MANIFEST /home/klaus/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.razer.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/09/20-10:29:37.512 6ba9b Recovering log #6
+2020/09/20-10:29:37.512 6ba9b Reusing old log /home/klaus/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.razer.com_0.indexeddb.leveldb/000006.log 
+2020/09/20-10:29:59.823 63b3 Level-0 table #11: started
+2020/09/20-10:29:59.825 63b3 Level-0 table #11: 592 bytes OK
+2020/09/20-10:29:59.829 63b3 Delete type=0 #6
+2020/09/20-10:29:59.829 63b3 Manual compaction at level-0 from '\x00\x02\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x03\x00\x00\x00' @ 0 : 0; will stop at (end)
+2020/09/20-10:29:59.830 63b3 Level-0 table #13: started
+2020/09/20-10:29:59.836 63b3 Level-0 table #13: 473 bytes OK
+2020/09/20-10:29:59.839 63b3 Delete type=0 #10
+2020/09/20-10:29:59.840 63b3 Manual compaction at level-0 from '\x00\x03\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x04\x00\x00\x00' @ 0 : 0; will stop at '\x00\x03\x00\x00\x05' @ 59 : 0
+2020/09/20-10:29:59.840 63b3 Compacting 1@0 + 1@1 files
+2020/09/20-10:29:59.842 63b3 Generated table #14@0: 4 keys, 259 bytes
+2020/09/20-10:29:59.842 63b3 Compacted 1@0 + 1@1 files => 259 bytes
+2020/09/20-10:29:59.844 63b3 compacted to: files[ 0 1 1 0 0 0 0 ]
+2020/09/20-10:29:59.845 63b3 Delete type=2 #13
+2020/09/20-10:29:59.845 63b3 Manual compaction at level-0 from '\x00\x03\x00\x00\x05' @ 59 : 0 .. '\x00\x04\x00\x00\x00' @ 0 : 0; will stop at (end)
+2020/09/20-10:30:01.830 63b3 Level-0 table #16: started
+2020/09/20-10:30:01.833 63b3 Level-0 table #16: 218 bytes OK
+2020/09/20-10:30:01.835 63b3 Delete type=2 #11
+2020/09/20-10:30:01.835 63b3 Delete type=0 #12
+2020/09/20-10:30:01.836 63b3 Manual compaction at level-0 from (begin) .. (end); will stop at '\x00\x00\x00\x002\x02\x03\x01\x00\x00\x00\x00\x00\x00\x00\x00' @ 60 : 0
+2020/09/20-10:30:01.836 63b3 Compacting 1@0 + 1@1 files
+2020/09/20-10:30:01.838 63b3 Generated table #17@0: 2 keys, 196 bytes
+2020/09/20-10:30:01.838 63b3 Compacted 1@0 + 1@1 files => 196 bytes
+2020/09/20-10:30:01.840 63b3 compacted to: files[ 0 1 1 0 0 0 0 ]
+2020/09/20-10:30:01.840 63b3 Delete type=2 #14
+2020/09/20-10:30:01.840 63b3 Delete type=2 #16
+2020/09/20-10:30:01.840 63b3 Manual compaction at level-0 from '\x00\x00\x00\x002\x02\x03\x01\x00\x00\x00\x00\x00\x00\x00\x00' @ 60 : 0 .. (end); will stop at (end)
+2020/09/20-10:30:01.841 63b3 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x00\x00\x00\x03' @ 53 : 0
+2020/09/20-10:30:01.841 63b3 Compacting 1@1 + 1@2 files
+2020/09/20-10:30:01.843 63b3 Generated table #18@1: 5 keys, 237 bytes
+2020/09/20-10:30:01.843 63b3 Compacted 1@1 + 1@2 files => 237 bytes
+2020/09/20-10:30:01.845 63b3 compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/09/20-10:30:01.845 63b3 Delete type=2 #8
+2020/09/20-10:30:01.845 63b3 Delete type=2 #17
+2020/09/20-10:30:01.845 63b3 Manual compaction at level-1 from '\x00\x00\x00\x00\x03' @ 53 : 0 .. (end); will stop at (end)

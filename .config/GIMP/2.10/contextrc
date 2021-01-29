@@ -1,0 +1,17 @@
+# GIMP user context
+
+(tool "gimp-zoom-tool")
+(paint-info "gimp-paintbrush")
+(foreground (color-rgb 1 1 1))
+(background (color-rgb 0.030581233379764459 0.32547169811320753 0.05840108854329687))
+(opacity 0.47999999999999993)
+(brush "2. Hardness 050")
+(dynamics "Dynamics Off")
+(mybrush "100% Opaque")
+(pattern "Maple Leaves")
+(gradient "FG to BG (RGB)")
+(palette "Color History")
+(font "Sans-serif")
+(tool-preset "Core Pointer")
+
+# end of user context

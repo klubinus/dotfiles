@@ -1,0 +1,6 @@
+2021/01/28-05:31:58.108 4850c Reusing MANIFEST /home/klaus/.config/BraveSoftware/Brave-Browser/Default/Sync Data/LevelDB/MANIFEST-000001
+2021/01/28-05:31:58.109 4850c Recovering log #11
+2021/01/28-05:31:58.109 4850c Reusing old log /home/klaus/.config/BraveSoftware/Brave-Browser/Default/Sync Data/LevelDB/000011.log 
+2021/01/28-19:10:57.581 a6d3d Level-0 table #15: started
+2021/01/28-19:10:57.590 a6d3d Level-0 table #15: 56105 bytes OK
+2021/01/28-19:10:57.594 a6d3d Delete type=0 #11

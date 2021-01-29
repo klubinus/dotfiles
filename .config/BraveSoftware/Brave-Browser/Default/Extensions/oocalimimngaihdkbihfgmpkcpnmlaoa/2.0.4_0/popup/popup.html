@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Teleparty</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="popup.css">
+    <script type="text/javascript" src="../lib/jquery.js"></script>
+    <script type="text/javascript" src="popup.js"></script>
+  </head>
+  <body>
+    <div class="no-error">
+      <div class="unsupportedSite hidden">
+        <p id="site-msg" class="error extension-txt">
+          Sorry, Teleparty doesn't support this site yet, but we will in the future!
+        </p>
+      </div>
+      <div class="wrongSite hidden">
+        <p id="site-msg" class="error extension-txt">
+          To use the extension, please open a video on Netflix, Disney Plus, Hulu, or HBO.
+        </p>
+        <p>
+          <button id="learn-more" class="extension-btn" type="button">Learn more</button>
+        </p>
+      </div>
+      <div class="comingSoon hidden">
+        <p id="site-msg" class="error extension-txt">
+          Netflix Party is renaming to Teleparty and expanding to Disney Plus, Hulu, and HBO next week.
+          <br>
+          <span id="service-type"></span>
+        </p>
+        <p>
+          <button id="learn-more-teleparty" class="extension-btn" type="button">Learn more</button>
+        </p>
+      </div>
+      <div class="disconnected">
+        <h2>Create a Teleparty</h2>
+        <p>
+          <label><input type="checkbox" id="control-lock"> Only I have control</label>
+        </p>
+        <p>
+          <button id="create-session" class="extension-btn" type="button">Start the party</button>
+        </p>
+
+        <p class="extension-txt-indicator">
+          <span id="testsettings"> Please make sure to tell your guests that they need to click on the red Tp icon to join a party after clicking on your party invite link.</span>
+        </p>
+
+      </div>
+      <div class="loading">
+        <p class="extension-txt"></p>
+        <i class="spinner fa fa-circle-o-notch fa-spin"></i>
+      </div>  
+      <div class="connected hidden">
+        <p class="extension-txt">Share the URL below so others can join the party. The recipient(s) should navigate to this URL and <i>then click on the red Tp icon</i> to join.</p>
+        <input id="share-url" type="text" readonly="true" autocomplete="off" autofocus />
+        <p class="copy-val extension-btn">
+          <a href="#" id="copy-btn">Copy URL</a>
+        </p>
+        <p>
+          <label><input type="checkbox" id="show-chat"> Show chat</label>
+        </p>
+        <p>
+          <button id="leave-session" class="extension-btn" type="button">Disconnect</button>
+        </p>
+
+        <p class="extension-txt-indicator">
+          <span id="testsettings"> Please make sure to tell your guests that they need to click on the red Tp icon to join a party after clicking on your party invite link.</span>
+        </p>
+      </div>
+    </div>
+    <div class="some-error hidden">
+      <p id="error-msg" class="error extension-txt"></p>
+      <p><button id="close-error" class="extension-btn" type="button">Dismiss</button></p>
+    </div>
+  </body>
+</html>

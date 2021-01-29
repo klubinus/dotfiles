@@ -1,0 +1,8 @@
+2020/12/28-16:20:08.742 fdc3 Reusing MANIFEST /home/klaus/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.amazon.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/12/28-16:20:08.742 fdc3 Recovering log #2146
+2020/12/28-16:20:08.742 fdc3 Reusing old log /home/klaus/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.amazon.com_0.indexeddb.leveldb/002146.log 
+2020/12/28-16:20:42.773 1cab0 Level-0 table #2151: started
+2020/12/28-16:20:42.773 1cab0 Level-0 table #2151: 0 bytes OK
+2020/12/28-16:20:42.777 1cab0 Delete type=0 #2146
+2020/12/28-16:20:42.777 1cab0 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/12/28-16:20:42.777 1cab0 Manual compaction at level-1 from (begin) .. (end); will stop at (end)

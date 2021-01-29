@@ -1,0 +1,5 @@
+2020/08/12-15:31:33.203 47d02 Reusing MANIFEST /home/klaus/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_pollev.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/08/12-15:32:14.580 11f61 Level-0 table #5: started
+2020/08/12-15:32:14.583 11f61 Level-0 table #5: 3581 bytes OK
+2020/08/12-15:32:14.585 11f61 Delete type=0 #3
+2020/08/12-15:32:14.585 11f61 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

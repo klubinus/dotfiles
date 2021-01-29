@@ -1,0 +1,5 @@
+2020/09/20-23:48:38.616 b5d84 Reusing MANIFEST /home/klaus/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.pcworld.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/09/20-23:49:10.621 63b3 Level-0 table #5: started
+2020/09/20-23:49:10.624 63b3 Level-0 table #5: 826 bytes OK
+2020/09/20-23:49:10.626 63b3 Delete type=0 #3
+2020/09/20-23:49:10.627 63b3 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
