@@ -1,8 +1,0 @@
-2020/11/16-22:42:26.132 4d6d Reusing MANIFEST /home/klaus/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.sciencedirect.com_0.indexeddb.leveldb/MANIFEST-000001
-2020/11/16-22:42:26.133 4d6d Recovering log #115
-2020/11/16-22:42:26.133 4d6d Reusing old log /home/klaus/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.sciencedirect.com_0.indexeddb.leveldb/000115.log 
-2020/11/16-22:42:34.965 4d6d Level-0 table #119: started
-2020/11/16-22:42:34.965 4d6d Level-0 table #119: 0 bytes OK
-2020/11/16-22:42:34.971 4d6d Delete type=0 #115
-2020/11/16-22:42:34.972 4d6d Manual compaction at level-0 from (begin) .. (end); will stop at (end)
-2020/11/16-22:42:34.972 4d6d Manual compaction at level-1 from (begin) .. (end); will stop at (end)

@@ -1,5 +1,0 @@
-2020/08/29-15:08:41.206 1ebf1 Reusing MANIFEST /home/klaus/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_onlinelibrary-wiley-com.ezproxy.javeriana.edu.co_0.indexeddb.leveldb/MANIFEST-000001
-2020/08/30-13:58:20.664 5a51 Level-0 table #5: started
-2020/08/30-13:58:20.667 5a51 Level-0 table #5: 4242 bytes OK
-2020/08/30-13:58:20.670 5a51 Delete type=0 #3
-2020/08/30-13:58:20.671 5a51 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

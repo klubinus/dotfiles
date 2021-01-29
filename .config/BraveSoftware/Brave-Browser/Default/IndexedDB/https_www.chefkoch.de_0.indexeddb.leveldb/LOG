@@ -1,5 +1,0 @@
-2020/11/22-14:46:15.264 15621a Reusing MANIFEST /home/klaus/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.chefkoch.de_0.indexeddb.leveldb/MANIFEST-000001
-2020/11/22-14:47:05.460 156219 Level-0 table #5: started
-2020/11/22-14:47:05.467 156219 Level-0 table #5: 50485 bytes OK
-2020/11/22-14:47:05.469 156219 Delete type=0 #3
-2020/11/22-14:47:05.470 156219 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

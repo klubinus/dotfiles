@@ -1,5 +1,0 @@
-2020/10/13-15:35:48.318 199da2 Reusing MANIFEST /home/klaus/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_datos.biodiversidad.co_0.indexeddb.leveldb/MANIFEST-000001
-2020/10/13-15:37:06.871 4671a Level-0 table #5: started
-2020/10/13-15:37:06.873 4671a Level-0 table #5: 2229 bytes OK
-2020/10/13-15:37:06.876 4671a Delete type=0 #3
-2020/10/13-15:37:06.876 4671a Manual compaction at level-0 from (begin) .. (end); will stop at (end)

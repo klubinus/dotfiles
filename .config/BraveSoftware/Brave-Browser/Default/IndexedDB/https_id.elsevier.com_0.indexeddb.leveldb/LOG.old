@@ -1,8 +1,0 @@
-2021/01/13-09:24:49.680 26749 Reusing MANIFEST /home/klaus/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_id.elsevier.com_0.indexeddb.leveldb/MANIFEST-000001
-2021/01/13-09:24:49.680 26749 Recovering log #36
-2021/01/13-09:24:49.680 26749 Reusing old log /home/klaus/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_id.elsevier.com_0.indexeddb.leveldb/000036.log 
-2021/01/13-09:24:58.703 2fca7 Level-0 table #40: started
-2021/01/13-09:24:58.703 2fca7 Level-0 table #40: 0 bytes OK
-2021/01/13-09:24:58.705 2fca7 Delete type=0 #36
-2021/01/13-09:24:58.705 2fca7 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
-2021/01/13-09:24:58.705 2fca7 Manual compaction at level-1 from (begin) .. (end); will stop at (end)

@@ -1,5 +1,0 @@
-2020/09/15-10:25:56.086 a760c Reusing MANIFEST /home/klaus/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.uol.com.br_0.indexeddb.leveldb/MANIFEST-000001
-2020/09/15-10:26:01.387 639f7 Level-0 table #5: started
-2020/09/15-10:26:01.390 639f7 Level-0 table #5: 2394 bytes OK
-2020/09/15-10:26:01.393 639f7 Delete type=0 #3
-2020/09/15-10:26:01.394 639f7 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

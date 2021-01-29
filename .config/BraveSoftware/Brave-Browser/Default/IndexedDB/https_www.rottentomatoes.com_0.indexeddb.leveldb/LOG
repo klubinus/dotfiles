@@ -1,5 +1,0 @@
-2020/11/15-15:35:44.502 21a40f Reusing MANIFEST /home/klaus/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.rottentomatoes.com_0.indexeddb.leveldb/MANIFEST-000001
-2020/11/15-15:36:17.207 21ab8b Level-0 table #5: started
-2020/11/15-15:36:17.210 21ab8b Level-0 table #5: 1136 bytes OK
-2020/11/15-15:36:17.213 21ab8b Delete type=0 #3
-2020/11/15-15:36:17.213 21ab8b Manual compaction at level-0 from (begin) .. (end); will stop at (end)

@@ -1,7 +1,0 @@
-2021/01/29-00:14:24.797 d7d8c Recovering log #3
-2021/01/29-00:14:24.906 d7d8c Level-0 table #5: started
-2021/01/29-00:14:24.996 d7d8c Level-0 table #5: 2785958 bytes OK
-2021/01/29-00:14:25.001 d7d8c Recovering log #9
-2021/01/29-00:14:25.007 d7d8c Delete type=0 #9
-2021/01/29-00:14:25.007 d7d8c Delete type=0 #3
-2021/01/29-00:14:25.007 d7d8c Delete type=3 #2

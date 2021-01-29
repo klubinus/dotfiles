@@ -1,8 +1,0 @@
-2020/12/02-21:37:25.829 1fe30 Reusing MANIFEST /home/klaus/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_a0ade593e7694ac071f988162e26d814.safeframe.googlesyndication.com_0.indexeddb.leveldb/MANIFEST-000001
-2020/12/02-21:37:25.829 1fe30 Recovering log #4
-2020/12/02-21:37:25.829 1fe30 Reusing old log /home/klaus/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_a0ade593e7694ac071f988162e26d814.safeframe.googlesyndication.com_0.indexeddb.leveldb/000004.log 
-2020/12/02-21:37:36.145 1fe30 Level-0 table #8: started
-2020/12/02-21:37:36.145 1fe30 Level-0 table #8: 0 bytes OK
-2020/12/02-21:37:36.149 1fe30 Delete type=0 #4
-2020/12/02-21:37:36.149 1fe30 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
-2020/12/02-21:37:36.149 1fe30 Manual compaction at level-1 from (begin) .. (end); will stop at (end)

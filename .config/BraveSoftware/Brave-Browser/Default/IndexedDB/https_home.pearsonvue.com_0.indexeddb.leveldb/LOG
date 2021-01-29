@@ -1,5 +1,0 @@
-2020/08/14-21:51:15.011 f7543 Reusing MANIFEST /home/klaus/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_home.pearsonvue.com_0.indexeddb.leveldb/MANIFEST-000001
-2020/08/14-21:51:18.368 2c3ef Level-0 table #5: started
-2020/08/14-21:51:18.371 2c3ef Level-0 table #5: 1593 bytes OK
-2020/08/14-21:51:18.375 2c3ef Delete type=0 #3
-2020/08/14-21:51:18.375 2c3ef Manual compaction at level-0 from (begin) .. (end); will stop at (end)

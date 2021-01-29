@@ -1,5 +1,0 @@
-2021/01/09-02:22:03.909 95fd5 Reusing MANIFEST /home/klaus/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_wallet.trezor.io_0.indexeddb.leveldb/MANIFEST-000001
-2021/01/09-02:28:40.086 9667e Level-0 table #5: started
-2021/01/09-02:28:40.089 9667e Level-0 table #5: 1255 bytes OK
-2021/01/09-02:28:40.092 9667e Delete type=0 #3
-2021/01/09-02:28:40.092 9667e Manual compaction at level-0 from (begin) .. (end); will stop at (end)

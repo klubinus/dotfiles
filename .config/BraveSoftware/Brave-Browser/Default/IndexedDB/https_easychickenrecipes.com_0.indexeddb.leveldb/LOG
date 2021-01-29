@@ -1,7 +1,0 @@
-2020/12/10-19:53:32.157 72d93 Reusing MANIFEST /home/klaus/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_easychickenrecipes.com_0.indexeddb.leveldb/MANIFEST-000001
-2020/12/10-19:53:32.157 72d93 Recovering log #3
-2020/12/10-19:53:32.157 72d93 Reusing old log /home/klaus/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_easychickenrecipes.com_0.indexeddb.leveldb/000003.log 
-2020/12/10-19:53:37.829 6f805 Level-0 table #5: started
-2020/12/10-19:53:37.830 6f805 Level-0 table #5: 6411 bytes OK
-2020/12/10-19:53:37.832 6f805 Delete type=0 #3
-2020/12/10-19:53:37.832 6f805 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

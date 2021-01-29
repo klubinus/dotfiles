@@ -1,5 +1,0 @@
-2020/12/16-11:00:02.942 6e6a Reusing MANIFEST /home/klaus/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.grupobancolombia.com_0.indexeddb.leveldb/MANIFEST-000001
-2020/12/16-11:11:45.009 8a0d Level-0 table #5: started
-2020/12/16-11:11:45.011 8a0d Level-0 table #5: 1322 bytes OK
-2020/12/16-11:11:45.014 8a0d Delete type=0 #3
-2020/12/16-11:11:45.015 8a0d Manual compaction at level-0 from (begin) .. (end); will stop at (end)

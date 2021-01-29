@@ -1,8 +1,0 @@
-2020/12/02-13:59:24.825 2887d Reusing MANIFEST /home/klaus/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_livejaverianaedu-my.sharepoint.com_0.indexeddb.leveldb/MANIFEST-000001
-2020/12/02-13:59:24.825 2887d Recovering log #197
-2020/12/02-13:59:24.825 2887d Reusing old log /home/klaus/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_livejaverianaedu-my.sharepoint.com_0.indexeddb.leveldb/000197.log 
-2020/12/02-14:00:04.163 2a1db Level-0 table #201: started
-2020/12/02-14:00:04.163 2a1db Level-0 table #201: 0 bytes OK
-2020/12/02-14:00:04.166 2a1db Delete type=0 #197
-2020/12/02-14:00:04.166 2a1db Manual compaction at level-0 from (begin) .. (end); will stop at (end)
-2020/12/02-14:00:04.166 2a1db Manual compaction at level-1 from (begin) .. (end); will stop at (end)

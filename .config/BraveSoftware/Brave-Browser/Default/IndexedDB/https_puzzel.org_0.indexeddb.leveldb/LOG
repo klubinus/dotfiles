@@ -1,5 +1,0 @@
-2020/09/18-10:38:45.445 16e471 Reusing MANIFEST /home/klaus/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_puzzel.org_0.indexeddb.leveldb/MANIFEST-000001
-2020/09/18-11:05:02.249 938 Level-0 table #5: started
-2020/09/18-11:05:02.255 938 Level-0 table #5: 50463 bytes OK
-2020/09/18-11:05:02.257 938 Delete type=0 #3
-2020/09/18-11:05:02.258 938 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

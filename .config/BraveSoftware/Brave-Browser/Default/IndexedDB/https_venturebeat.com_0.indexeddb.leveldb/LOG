@@ -1,5 +1,0 @@
-2020/11/27-22:58:28.798 e93fb Reusing MANIFEST /home/klaus/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_venturebeat.com_0.indexeddb.leveldb/MANIFEST-000001
-2020/11/27-23:03:21.045 eb69a Level-0 table #5: started
-2020/11/27-23:03:21.048 eb69a Level-0 table #5: 2690 bytes OK
-2020/11/27-23:03:21.051 eb69a Delete type=0 #3
-2020/11/27-23:03:21.051 eb69a Manual compaction at level-0 from (begin) .. (end); will stop at (end)

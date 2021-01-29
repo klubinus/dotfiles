@@ -1,5 +1,0 @@
-2020/08/19-08:37:00.984 2f03 Reusing MANIFEST /home/klaus/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.fishersci.com_0.indexeddb.leveldb/MANIFEST-000001
-2020/08/19-11:06:35.028 e0f Level-0 table #5: started
-2020/08/19-11:06:35.032 e0f Level-0 table #5: 1310 bytes OK
-2020/08/19-11:06:35.034 e0f Delete type=0 #3
-2020/08/19-11:06:35.035 e0f Manual compaction at level-0 from (begin) .. (end); will stop at (end)

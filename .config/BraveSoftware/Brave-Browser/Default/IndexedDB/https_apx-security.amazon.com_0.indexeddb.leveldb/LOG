@@ -1,5 +1,0 @@
-2020/09/06-18:26:25.448 359d Reusing MANIFEST /home/klaus/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_apx-security.amazon.com_0.indexeddb.leveldb/MANIFEST-000001
-2020/09/06-18:27:16.857 bcd Level-0 table #5: started
-2020/09/06-18:27:16.860 bcd Level-0 table #5: 1319 bytes OK
-2020/09/06-18:27:16.863 bcd Delete type=0 #3
-2020/09/06-18:27:16.863 bcd Manual compaction at level-0 from (begin) .. (end); will stop at (end)
